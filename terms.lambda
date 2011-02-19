@@ -1,0 +1,12 @@
+TRUE := \xy.x
+FALSE := \xy.y
+
+AND := \pq.(pqp)
+OR := \pq.(ppq)
+NOT := \pab.(pba)
+IFTHENELSE := \pab.(pab)
+
+I := \x.x
+K := \xy.x
+S := \xyz.(x z (y z))
+OMEGA := \x.(x x)
